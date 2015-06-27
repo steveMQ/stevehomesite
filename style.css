@@ -1,0 +1,801 @@
+/*
+Theme Name: stevetheme
+Author: Steve
+Description: my theme
+Version: 1.0
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+* {
+	font-family: copperplate, 'Exo 2';
+	font-size: 12px;
+	color: #4e545a;
+
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	padding-bottom: 40px;
+	background-color: #414040;
+
+	/* credit to css-tricks.com for the background! */
+	background-image: url(assets/imgs/bg12.png);
+}
+
+#home {
+	position: absolute;
+	top: 0px;
+}
+
+.container {
+	margin-top: 58px;
+}
+
+
+
+button {
+	height: 54px;
+	padding: 10px 50px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	border-radius: 4px;
+	text-align: center;
+	border: 0;
+	border-bottom: 3px outset buttonface;
+}
+
+button:hover {
+	color: #4e545a;
+}
+
+.wt {
+	color: #fff;
+}
+
+
+.header-container {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+header {
+	width: 100%;
+	z-index: 9999;
+
+}
+
+.navbar {
+	width: 100%;
+	border: 0 !important;
+}
+
+.navbar-collapse, .navbar-default, .navbar-header {
+
+	background-color: rgba(34, 40, 43, 0.95);
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+
+	background-color:transparent;
+
+}
+
+.navbar-default {
+	border-color: transparent;
+	background-color: transparent;
+	background-image: none;
+
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #fff;
+	background-color: transparent;
+}
+
+h2 {
+	font-size: 42px;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 56px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.slidearea {
+	background-color: #23a88a;
+	height: 420px;
+	position: relative;
+	z-index: 5;
+	position: relative;
+	padding-top: 0px;
+
+}
+
+.macpic {
+	height: 100%;
+	width: 100%;
+	margin-top: 10%;
+}
+
+.coolpic {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+.nav {
+	margin-right: 100px;
+	float: right;
+
+}
+
+.q-img {
+	margin-left: 15px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background-image: url("assets/imgs/qlogo4.png");
+	background-repeat: no-repeat;
+	height: 51px;
+	width: 51px;
+	display: block;
+
+}
+
+.q-img:hover {
+	cursor: pointer;
+}
+
+.header1 {
+	padding-left: 20px;
+}
+
+header > div {
+	margin-top: 20px;
+
+}
+
+header > div > ul {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+header div ul li {
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	height: 57px;
+	float: left;
+}
+
+header div ul li a {
+	text-decoration: none;
+	padding-bottom: 20px !important;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	text-shadow: none;
+}
+
+header div ul li a:hover, .nav-active {
+	cursor: pointer;
+	border-bottom: 3px solid #42c5a2;
+	text-decoration: none;
+}
+
+
+.t1 {
+	background-color: #656565;
+}
+
+.t2 {
+	background-color: lime;
+}
+
+.blurb {
+	background-color: #23a88a;
+	padding: 30px;
+	padding-top: 80px;
+
+}
+
+.blurb > p {
+	color: #fff;
+	font-weight: 100;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	padding-left: 8px;
+}
+
+.blurb button {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color: #38c6a6;
+	border-bottom-color: #21a88a;
+}
+
+#skills {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 58px;
+}
+
+.skillset {
+	background-color: #22282b;
+	padding: 80px;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	z-index: 6;
+}
+
+.skillset h2 {
+	margin-bottom: 70px;
+}
+
+.skill-pic {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.skill-pic img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin-top: -40px;
+}
+
+
+.skill-list {
+	width: 100%;
+	padding-left: 0;
+	margin: 0;
+}
+
+.skill-list > li {
+	display: block;
+	position: relative;
+
+	background-image: url(assets/imgs/bullet.png);
+	background-repeat: no-repeat;
+	background-position: 0px 18px;
+	padding-left: 40px;
+}
+
+.skill-list li h2 {
+	margin-bottom: 0px;
+	font-size: 20px;
+	padding-bottom: 0;
+	text-align: left;
+
+
+}
+
+.skill-list li ul {
+	margin-top: -10px;
+	color: #7a7e80;
+	margin-bottom: 0;
+	padding-left: 14px;
+}
+
+.skill-hold {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+/* three-c row */
+
+.three-c {
+	background-color: #393e41;
+	padding: 50px;
+}
+
+.three-c > h2 {
+	padding-bottom: 70px;
+}
+
+.three-block {
+	height: 360px;
+
+}
+
+.three-block img {
+	margin-top: 10px;
+	max-height: 50%;
+	margin-left: 25%;
+	max-width: 50%;
+
+}
+
+.three-block h2 {
+	font-size: 20px;
+	color: #D3D3D3;
+	padding-bottom: 0;
+	font-weight: 800;
+}
+
+.three-block p {
+	text-align: center;
+	color: #d3d3d3;
+}
+
+.three-block.last {
+	margin-right: 0;
+}
+
+
+/* portfolio */
+
+.portfolio {
+	background-color: #23a88a;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.portfolio > h2 {
+	margin-bottom: 50px;
+}
+
+.portfolio > a {
+	text-align: center;
+	height: 240px;
+	margin-bottom: 30px;
+	background-color: #cccccc;
+	display: inline-block;
+	box-sizing: content-box;
+	padding: 0;
+	margin-left: 6.3%;
+}
+
+.portfolio a img {
+	width: 100%;
+	display: block;
+	opacity: 1;
+	max-height: 100%;
+}
+
+#travl {
+	margin-top: 90px;
+}
+
+#creative {
+	margin-top: 60px;
+}
+
+.overlay {
+	z-index: 20;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 0;
+	padding-top: 38%;
+	font-size: 18px;
+
+}
+
+.port-hold:hover > img {
+	opacity: 0;
+}
+
+.port-hold:hover > .overlay {
+	opacity: 1;
+}
+
+
+/* contact me section */
+
+#contact {
+	background-color: #22282b;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+#contact p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#contact-header {
+	margin-bottom: 30px;
+}
+
+#contact input, #contact textarea {
+	margin-bottom: 20px;
+	height: 30px;
+	background-color: #393e41;
+	border-color: transparent;
+	color: #23a88a;
+}
+
+input:focus, textarea:focus {
+
+	outline: none;
+}
+
+#input-msg {
+	height: 100px !important;
+	resize: none;
+}
+
+#submit-button {
+	background-color: #393e41;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#submit-button:hover {
+	color: #23a88a;
+	border-bottom-color: #23a88a;
+}
+
+#message {
+	display: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+
+
+
+/* ipad media query (portrait view) */
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 991px) {
+
+
+	.blurb p {
+		margin-left: 25%;
+		margin-bottom: 50px;
+	}
+
+	.skill-pic img {
+		width: 100%;
+		margin-top: -70px;
+	}
+
+	.blurb button {
+		width: 70%;
+	}
+
+	.skill-list > li {
+		min-height: 110px;
+	}
+
+	.three-block > div > img {
+		margin-left: 23%;
+	}
+
+	.port-hold {
+		margin-left: 11.5% !important;
+	}
+
+	#contact-header, .portfolio > h2 {
+		margin-bottom: 10px;
+	}
+
+
+}
+
+/* iPad (landscape) - medium desktop */
+
+@media only screen
+and (min-width : 992px)
+and (max-width : 1199px) {
+
+	.macpic {
+		margin-top: 25%;
+	}
+
+	.three-block img {
+		margin-left: 20%;
+	}
+
+	.skill-pic img {
+		margin-top: 20px;
+	}
+
+	#contact-header, .skillset > h2, .portfolio > h2 {
+		margin-bottom: 10px;
+	}
+
+	.skill-list li ul {
+		margin-top: -15px;
+	}
+
+	.overlay {
+		padding-top: 48%;
+	}
+
+}
+
+
+/* phones & 'xs' */
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 767px)
+						 {
+
+
+
+    nav {
+	    margin-bottom: 0;
+    }
+
+    .container {
+	    margin-top: 0;
+	    margin-left: 3%;
+	    margin-right: 3%;
+    }
+
+    section {
+	    margin-bottom: 3%;
+	    border-radius: 4px !important;
+    }
+
+    .navbar {
+	    min-width: 320px !important;
+	    background-color: #22282b;
+	    height: 50px;
+	    margin-bottom: 0;
+    }
+
+    .navbar-header {
+	    background-color: rgba(34, 40, 43, 0.95);
+
+    }
+
+    header {
+	    margin-top: -89px;
+    }
+
+    .coolpic {
+	    display: none;
+    }
+
+    .q-img {
+
+	   margin: -2px 19px 10px;
+	   background-image: url(assets/imgs/qlogo9.png);
+	   height: 42px;
+    }
+
+    .skillset {
+	    padding-top: 25px;
+	    padding-left: 0 !important;
+	    padding-right: 0 !important;
+    }
+
+    .skillset h2 {
+	    margin-bottom: 0;
+	    padding-bottom: 0;
+    }
+
+    .skill-list li h2 {
+	    margin-bottom: 0;
+    }
+
+    .slidearea {
+	    margin-bottom: 3%;
+	    margin-top: 148px;
+	    border-radius: 4px;
+    }
+
+    .navbar-default {
+	    background-color: transparent;
+	    background-image: none;
+	    -webkit-box-shadow:none;
+		box-shadow:none;
+
+    }
+
+    .navbar-default .navbar-collapse, .navbar-		default .navbar-form {
+		border:0;
+	}
+
+    .navbar-toggle {
+	    margin: 0;
+	    padding: 20px;
+	    border: 0;
+	    height: 50px;
+
+	    border-radius: 0;
+    }
+
+    .icon-bar {
+	    background-color: #38c6a6 !important;
+    }
+
+    .myDropdown {
+	    margin-left: 0px !important;
+	    margin-right: 0px !important;
+	    width: 100%;
+	    padding-left: 10px;
+	    padding-right: 10px;
+    }
+
+    .myDropdown li {
+	  height: 60px;
+	  margin-bottom: 0px;
+	  padding: 10px;
+	  border-bottom: 1px solid rgba(101, 101, 101, 0.2);
+    }
+
+    .myDropdown li a {
+	   height: 100%;
+	   padding-left: 0;
+	   padding-right: 0;
+    }
+
+    .myDropdown li a:hover {
+	    color: #fff;
+    }
+
+    header div ul li a:hover, .nav-active {
+		cursor: pointer;
+		border:0;
+		text-decoration: none;
+	}
+
+	#next-button {
+		display: block;
+		color: #38c6a6;
+		background-image: url(assets/imgs/next.png);
+		background-repeat: no-repeat;
+		margin-top: 19px;
+		margin-left: 60px;
+	}
+
+	#bs-example-navbar-collapse-1 {
+		width: 100%;
+		height: 0;
+	}
+
+    .blurb {
+		margin-top: 0;
+	    padding-bottom: 50px;
+	    padding-top: 50px;
+	    border-radius: 4px;
+    }
+
+    .blurb p {
+	    margin-left: 0;
+	    text-align: center;
+    }
+
+    .skill-pic img {
+	    margin-top: 0;
+	    display: none;
+    }
+
+    .blurb button {
+	    width: 100%;
+    }
+
+    .skill-pic {
+	    margin-bottom: 0;
+	    margin-top: 0;
+    }
+
+    .skill-list li {
+	    margin-left: 5%;
+    }
+
+    .slidearea {
+	    height: auto;
+    }
+
+    .navbar-collapse {
+	    max-height: none;
+	    background-color: rgba(34, 40, 43, 0.95);
+    }
+
+    .navbar-header {
+	    max-height: 100%;
+    }
+
+    .three-c {
+	    padding-left: 0;
+	    padding-right: 0;
+	    padding-top: 25px;
+    }
+
+    .three-c > h2 {
+	    padding-bottom: 0;
+    }
+
+    .three-block img {
+	    margin-left: 0;
+	    margin-right: 0;
+    }
+
+    .three-block {
+	   height:auto;
+
+    }
+
+    .three-block > .row > .pic {
+	    text-align: center;
+    }
+
+    .portfolio > a {
+	    margin-left: 8.333333333333332%;
+	    margin-right: 8.333333333333332%;
+	    margin-bottom: 3%;
+
+    }
+
+    .portfolio {
+	    padding-bottom: 25px;
+	    padding-top: 25px;
+    }
+
+    .portfolio > h2 {
+	    margin-bottom: 0;
+    }
+
+    #sb-hold {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+
+    #contact {
+	    padding-bottom: 50px;
+	    padding-top: 25px;
+    }
+
+    #contact h2 {
+	    padding-bottom: 0;
+    }
+
+    #contact-header {
+	    margin-bottom: 0;
+    }
+
+    #contact input {
+	    margin-bottom: 10px;
+    }
+
+    #contact textarea {
+	    margin-bottom: 10px;
+    }
+
+}
+
+/* end of iphone media query */
