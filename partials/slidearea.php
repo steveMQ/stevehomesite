@@ -6,18 +6,22 @@
 
   <div class="col-sm-offset-2 col-sm-8 col-md-4 col-md-offset-1 col-xs-12 blurb">
 
-    <h2>hello, i'm steve Q</h2>
+    <h2><?php the_field('heading_title'); ?></h2>
 
-    <p>I'm a Front-End Web Developer w/ a<br/>...passion for coding<br/>...compulsion for problem-solving<br/>...obsession for learning and perfecting</p>
+    <?php the_field('heading_content'); ?>
 
-    <button id="lets-talk">Let's talk</button>
+    <button id="lets-talk"><?php the_field('heading_button_text'); ?></button>
 
   </div>
 
   <div class="col-md-6 col-md-offset-1">
-    <img class="macpic" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/macpic.png" />
+    <?php
+      // gets the image object, which is an associative array and assign to a variable.
+      // Below we access the url by the key name, 'url'
+      $headingImage = get_field('heading_image');
+    ?>
+    <img class="macpic" src="<?php echo $headingImage['url']; ?>" />
   </div>
-
 
 
 </section>	<!-- end of slidearea section -->

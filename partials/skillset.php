@@ -2,11 +2,14 @@
 
 
 
-  <h2 class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-12 col-lg-offset-0">what i do</h2>
+  <h2 class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-12 col-lg-offset-0">
+    <?php the_field('skillset_title'); ?>
+  </h2>
 
   <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-6 col-lg-8 skill-pic">
 
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/iphones.png" />
+    <?php $skillsetImage = get_field('skillset_image'); ?>
+    <img src="<?php echo $skillsetImage['url']; ?>" />
 
   </div>
 
@@ -66,5 +69,5 @@
     </ul>
 
   </div>
-  
+
 </section> <!-- end of skills div -->
