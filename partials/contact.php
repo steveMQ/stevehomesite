@@ -6,7 +6,7 @@
 
       <div class="col-lg-8 col-lg-offset-2">
 
-        <h2>contact me</h2>
+        <h2><?php the_field('contact_title'); ?></h2>
 
       </div>
 
@@ -16,7 +16,7 @@
     <div class="row">
 
         <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2" id="contact-description">
-          <p>I love good ideas, big challenges and forward thinking clients. Have an idea? Contact me below!</p>
+          <p><?php the_field('contact_description'); ?></p>
         </div>
 
     </div>
